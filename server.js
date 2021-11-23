@@ -138,6 +138,7 @@ function addDepartment() {
           name: res.name,
           id: res.id,
         },
+        
         function (err) {
           if (err) throw err;
           console.table(res);
